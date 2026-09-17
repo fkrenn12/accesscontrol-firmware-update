@@ -1,0 +1,18 @@
+{
+  "ssh": {
+    "hostname": "update.accesscontrol.techfit.at",
+    "port": 250,
+    "username": "franz",
+    "key filename": "franz_clever_together_techfit_at.opensshkey",
+    "path": "/home/franz/clever-together.techfit.at/accesscontrol-full-stacked/backend/api_http/firmware/files/release"
+  },
+  "mpy cross": {
+    "1.29.0": {
+      "compiling": true,
+      "modulename": "mpy_cross_v1_29_0",
+      "script name": "mpy-cross-all-1_29_0.py",
+      "setup_filename": "setup_1.29.0.json",
+      "mpy_filename": "mpy_1.29.0"
+    }
+ }
+}
