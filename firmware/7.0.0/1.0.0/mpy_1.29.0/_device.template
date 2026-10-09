@@ -11,25 +11,13 @@
     "general/reboot/enabled": 1,
     "general/reboot/hour": 4,
     "general/watchdog/seconds": 60,
-
-    "hardware/version": "0.0.0",
-
-    "remote-update/protocol": "http",
-    "remote-update/hostname": "update.accesscontrol.techfit.at",
-    "remote-update/port": 5600,
-    "remote-update/wifi/use_only_this_connection": 0,
-    "remote-update/wifi/use_this_connection_first": 1,
-    "remote-update/wifi/max_number_of_attempts": 3,
-    "remote-update/wifi/ssid": "Accesscontrol_Setup",
-    "remote-update/wifi/password": "accesscontrol_setup",
-
     "mqtt/server": "techfit.at",
     "mqtt/topic_root": "",
     "mqtt/port": 8883,
     "mqtt/ssl": 1,
     "mqtt/user": "makeraccess_device",
     "mqtt/password": "makeraccess_YYPz2T",
-
+    "remote-ota-update/max_number_of_attempts":3,
     "off-alarm/sequence": [{"start": 60, "interval": 5, "timing": [2, 50, 100], "colors": "[RED_FULL, TRANSPARENT]"},
                            {"start": 40, "interval": 1, "timing": [3, 50, 100], "colors": "[RED_FULL, RED_LOW]"},
                            {"start": 25, "interval": 1, "timing": [2, 200, 200], "colors": "[RED_FULL, RED]"},
