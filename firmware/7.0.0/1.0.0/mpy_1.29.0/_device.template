@@ -28,12 +28,6 @@
     "access/force-off/enabled": 1,
     "access/force-off/rfid_with_prev_access_only": 0,
 
-    "current/force_off/enabled": 0,
-    "current/force-off/lower_current_level_amps": 0.2,
-    "current/force-off/upper_current_level_amps": 0.4,
-    "current/force-off/trigger_time_sec": 60,
-    "current/force-off/alarm_time_sec": 120,
-
     "display/enabled": 1,
     "display/brightness": 5,
     "display/scroll-speed": 0.3,
